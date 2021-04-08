@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">AccessibilityDemo</string>
+    <string name="app_name">Accessibility Demo</string>
+    <string name="iban_to_str">Destination account</string>
+    <string name="ibun_number">Account number</string>
+    <string name="to_recipient_str">Recipient name</string>
+    <string name="to_name">Recipient</string>
+    <string name="next_btn">Next</string>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Accessibility Demo</string>
+    <string name="iban_to_str">Conta destino</string>
+    <string name="ibun_number">Número da conta</string>
+    <string name="to_recipient_str">Nome destinatário</string>
+    <string name="to_name">Destinatário</string>
+    <string name="next_btn">Próximo</string>
+</resources>
