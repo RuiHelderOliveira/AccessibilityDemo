@@ -3,7 +3,6 @@ package com.example.accessibilitydemo
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import com.example.accessibilitydemo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +16,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         binding.nextBtn.setOnClickListener {
+
+            if(binding.ibanText.text.toString().trim().isEmpty()){
+                binding.ibanText.setError("Enter a distination account")
+                return@setOnClickListener
+            }
+
             val intent = Intent(this, ConfirmActivity::class.java);
+            intent.putExtra(IBAN_STR, binding.ibanText.text.toString())
+            intent.putExtra(NAME_STR, binding.toText.text.toString())
             startActivity(intent);
         }
     }

@@ -6,4 +6,5 @@
     <string name="to_recipient_str">Nome destinatário</string>
     <string name="to_name">Destinatário</string>
     <string name="next_btn">Próximo</string>
+    <string name="confirm_btn">Confirmar</string>
 </resources>
