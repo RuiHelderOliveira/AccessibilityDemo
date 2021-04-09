@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.accessibilitydemo.databinding.ActivityConfirmationBinding
-import com.example.accessibilitydemo.databinding.ActivityMainBinding
 
 class ConfirmActivity : AppCompatActivity() {
 
@@ -24,8 +23,8 @@ class ConfirmActivity : AppCompatActivity() {
         binding.toText.text = name
 
         binding.confirmBtn.setOnClickListener {
-            val intent = Intent(this, DoneActivity::class.java);
-            startActivity(intent);
+            val intent = Intent(this, DoneActivity::class.java)
+            startActivity(intent)
         }
     }
 }

@@ -2,7 +2,6 @@ package com.example.accessibilitydemo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.accessibilitydemo.databinding.ActivityConfirmationBinding
 import com.example.accessibilitydemo.databinding.ActivityDoneBinding
 
 class DoneActivity : AppCompatActivity() {

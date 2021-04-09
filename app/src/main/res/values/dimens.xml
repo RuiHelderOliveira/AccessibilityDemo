@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="activity_padding">16dp</dimen>
-    <dimen name="button_size">28sp</dimen>
-    <dimen name="edit_size">18sp</dimen>
-    <dimen name="body_size">22sp</dimen>
     <dimen name="edit_padding">10dp</dimen>
     <dimen name="btn_padding">8dp</dimen>
+
+    <dimen name="button_size">22sp</dimen>
+    <dimen name="edit_size">18sp</dimen>
+    <dimen name="body_size">22sp</dimen>
+    <dimen name="head_size">28sp</dimen>
 </resources>

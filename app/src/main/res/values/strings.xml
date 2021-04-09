@@ -6,4 +6,5 @@
     <string name="to_name">Recipient</string>
     <string name="next_btn">Next</string>
     <string name="confirm_btn">Confirm</string>
+    <string name="success">Success</string>
 </resources>
