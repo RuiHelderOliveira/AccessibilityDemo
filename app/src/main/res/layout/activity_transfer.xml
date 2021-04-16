@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/activity_padding"
-    tools:context=".MainActivity">
+    tools:context=".TransferActivity">
 
     <TextView
         android:id="@+id/iban_to_label"
@@ -22,6 +22,7 @@
         android:id="@+id/iban_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints="@string/ibun_number"
         android:inputType="number"
         android:hint="@string/ibun_number"
         android:textSize="@dimen/edit_size"
@@ -46,6 +47,7 @@
         android:id="@+id/to_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints="@string/to_name"
         android:inputType="textPersonName"
         android:hint="@string/to_name"
         android:textSize="@dimen/edit_size"

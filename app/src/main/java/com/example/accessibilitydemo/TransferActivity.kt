@@ -1,24 +1,24 @@
 package com.example.accessibilitydemo
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.accessibilitydemo.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
+import com.example.accessibilitydemo.databinding.ActivityTransferBinding
 
-class MainActivity : AppCompatActivity() {
+class TransferActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityTransferBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityTransferBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
 
         binding.nextBtn.setOnClickListener {
 
             if(binding.ibanText.text.toString().trim().isEmpty()){
-                binding.ibanText.error = "Enter a distination account"
+                binding.ibanText.error = "Enter a destination account"
                 return@setOnClickListener
             }
 
