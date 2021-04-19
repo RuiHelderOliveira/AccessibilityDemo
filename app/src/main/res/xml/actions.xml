@@ -2,8 +2,12 @@
 <actions>
     <action
         intentName="custom.actions.intent.SHARE_INFO"
-        queryPatterns="@array/ShareExampleQueries"/>
+        queryPatterns="@array/ShareExampleQueries">
+        <fulfillment urlTemplate="https://accessibility-demo-actions.example.com/share" />
+    </action>
     <action
         intentName="custom.actions.intent.TRANSFER"
-        queryPatterns="@array/TransferExampleQueries"/>
+        queryPatterns="@array/TransferExampleQueries">
+        <fulfillment urlTemplate="https://accessibility-demo-actions.example.com/transfer" />
+    </action>
 </actions>

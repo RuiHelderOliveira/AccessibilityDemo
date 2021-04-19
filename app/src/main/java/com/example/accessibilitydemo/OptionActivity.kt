@@ -20,6 +20,9 @@ class OptionActivity : AppCompatActivity() {
         val to: String? = intent.getStringExtra(NAVIGATION)
         if (to != null) {
             showSelectedOption(to)
+        } else {
+            // Handle the intent this activity was launched with.
+            intent?.handleIntent()
         }
     }
 
