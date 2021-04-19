@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action
+        intentName="custom.actions.intent.SHARE_INFO"
+        queryPatterns="@array/ShareExampleQueries"/>
+    <action
+        intentName="custom.actions.intent.TRANSFER"
+        queryPatterns="@array/TransferExampleQueries"/>
+</actions>

@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/activity_padding"
-    tools:context=".TransferActivity">
+    tools:context=".OptionActivity">
 
     <TextView
-        android:id="@+id/iban_to_label"
+        android:id="@+id/iban_to_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/iban_to_str"
+        android:text="@string/iban_to_text"
         android:textStyle="bold"
         android:textSize="@dimen/body_size"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -19,51 +19,51 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/iban_text"
+        android:id="@+id/iban_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:autofillHints="@string/ibun_number"
+        android:autofillHints="@string/ibun_number_text"
         android:inputType="number"
-        android:hint="@string/ibun_number"
+        android:hint="@string/ibun_number_text"
         android:textSize="@dimen/edit_size"
         android:paddingTop="@dimen/edit_padding"
         android:paddingBottom="@dimen/edit_padding"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iban_to_label" />
+        app:layout_constraintTop_toBottomOf="@+id/iban_to_text_view" />
 
     <TextView
-        android:id="@+id/to_recipient_label"
+        android:id="@+id/to_recipient_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/to_recipient_str"
+        android:text="@string/to_recipient_text"
         android:textStyle="bold"
         android:textSize="@dimen/body_size"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iban_text" />
+        app:layout_constraintTop_toBottomOf="@+id/iban_edit_text" />
 
     <EditText
-        android:id="@+id/to_text"
+        android:id="@+id/to_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:autofillHints="@string/to_name"
+        android:autofillHints="@string/to_name_text"
         android:inputType="textPersonName"
-        android:hint="@string/to_name"
+        android:hint="@string/to_name_text"
         android:textSize="@dimen/edit_size"
         android:paddingTop="@dimen/edit_padding"
         android:paddingBottom="@dimen/edit_padding"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/to_recipient_label" />
+        app:layout_constraintTop_toBottomOf="@+id/to_recipient_text_view" />
 
     <Button
-        android:id="@+id/next_btn"
+        android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/next_btn"
+        android:text="@string/next_button_text"
         android:textSize="@dimen/button_size"
-        android:padding="@dimen/btn_padding"
+        android:padding="@dimen/button_padding"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/to_text"/>
+        app:layout_constraintTop_toBottomOf="@+id/to_edit_text"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

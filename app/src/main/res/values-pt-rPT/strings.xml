@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Accessibility Demo</string>
-    <string name="iban_to_str">Conta destino</string>
-    <string name="ibun_number">Número da conta</string>
-    <string name="to_recipient_str">Nome destinatário</string>
-    <string name="to_name">Destinatário</string>
-    <string name="next_btn">Próximo</string>
-    <string name="confirm_btn">Confirmar</string>
-    <string name="success">Sucesso</string>
+    <string name="iban_to_text">Conta destino</string>
+    <string name="ibun_number_text">Número da conta</string>
+    <string name="to_recipient_text">Nome destinatário</string>
+    <string name="to_name_text">Destinatário</string>
+    <string name="next_button_text">Próximo</string>
+    <string name="confirm_button_text">Confirmar</string>
+    <string name="success_text">Sucesso</string>
+    <string name="transfer_button_text">Transferência</string>
+    <string name="share_button_text">Partilhar</string>
+    <string name="title_transfer">Transferência</string>
+    <string name="title_share">Partilhar</string>
 </resources>

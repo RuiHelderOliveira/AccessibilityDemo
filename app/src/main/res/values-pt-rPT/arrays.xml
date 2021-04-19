@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ShareExampleQueries">
+        <item>Mostrar nib</item>
+        <item>Mostrar iban</item>
+    </array>
+    <array name="TransferExampleQueries">
+        <item>Transferir 50 para</item>
+    </array>
+</resources>

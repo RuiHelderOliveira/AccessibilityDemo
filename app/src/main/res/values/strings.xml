@@ -1,10 +1,16 @@
 <resources>
     <string name="app_name">Accessibility Demo</string>
-    <string name="iban_to_str">Destination account</string>
-    <string name="ibun_number">Account number</string>
-    <string name="to_recipient_str">Recipient name</string>
-    <string name="to_name">Recipient</string>
-    <string name="next_btn">Next</string>
-    <string name="confirm_btn">Confirm</string>
-    <string name="success">Success</string>
+    <string name="iban_to_text">Destination account</string>
+    <string name="ibun_number_text">Account number</string>
+    <string name="to_recipient_text">Recipient name</string>
+    <string name="to_name_text">Recipient</string>
+    <string name="next_button_text">Next</string>
+    <string name="confirm_button_text">Confirm</string>
+    <string name="success_text">Success</string>
+    <string name="transfer_button_text">Transfer</string>
+    <string name="share_button_text">Share</string>
+    <string name="iban_text" translatable="false">IBAN</string>
+    <string name="iban" translatable="false">PT50 1234 4321 12345678901 72</string>
+    <string name="title_transfer">Transfer</string>
+    <string name="title_share">Share</string>
 </resources>

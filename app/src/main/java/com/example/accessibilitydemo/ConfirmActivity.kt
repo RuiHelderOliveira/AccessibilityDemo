@@ -19,10 +19,10 @@ class ConfirmActivity : AppCompatActivity() {
         val iban: String? = intent.getStringExtra(IBAN_STR)
         val name: String? = intent.getStringExtra(NAME_STR)
 
-        binding.ibanText.text = iban
-        binding.toText.text = name
+        binding.ibanTextView.text = iban
+        binding.toTextView.text = name
 
-        binding.confirmBtn.setOnClickListener {
+        binding.confirmButton.setOnClickListener {
             val intent = Intent(this, DoneActivity::class.java)
             startActivity(intent)
         }
