@@ -1,4 +1,4 @@
-package com.example.accessibilitydemo
+package com.example.accessibilitydemo.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

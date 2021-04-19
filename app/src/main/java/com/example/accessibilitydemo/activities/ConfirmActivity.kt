@@ -1,8 +1,10 @@
-package com.example.accessibilitydemo
+package com.example.accessibilitydemo.activities
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.accessibilitydemo.IBAN_STR
+import com.example.accessibilitydemo.NAME_STR
 import com.example.accessibilitydemo.databinding.ActivityConfirmationBinding
 
 class ConfirmActivity : AppCompatActivity() {

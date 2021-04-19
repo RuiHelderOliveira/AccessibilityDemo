@@ -1,4 +1,4 @@
-package com.example.accessibilitydemo
+package com.example.accessibilitydemo.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater

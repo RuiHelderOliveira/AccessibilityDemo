@@ -1,8 +1,11 @@
-package com.example.accessibilitydemo
+package com.example.accessibilitydemo.activities
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.accessibilitydemo.NAVIGATION
+import com.example.accessibilitydemo.SHARE
+import com.example.accessibilitydemo.TRANSFER
 import com.example.accessibilitydemo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

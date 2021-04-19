@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="ShareExampleQueries">
-        <item>Show nib</item>
-        <item>Show iban</item>
-    </array>
-    <array name="TransferExampleQueries">
-        <item>Transfer 50 to</item>
-    </array>
+    <string-array name="ShareExampleQueries">
+        <item>Start Demo and Show me a nib</item>
+        <item>Start Demo and Show me a iban</item>
+    </string-array>
+    <string-array name="TransferExampleQueries">
+        <item>Start Demo and Transfer</item>
+    </string-array>
 </resources>

@@ -1,11 +1,14 @@
-package com.example.accessibilitydemo
+package com.example.accessibilitydemo.activities
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.accessibilitydemo.*
 import com.example.accessibilitydemo.databinding.ActivityOptionBinding
+import com.example.accessibilitydemo.fragments.ShareFragment
+import com.example.accessibilitydemo.fragments.TransferFragment
 
 class OptionActivity : AppCompatActivity() {
 
